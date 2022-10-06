@@ -1,0 +1,19 @@
+name: app_extensions
+version: 0.1.0+1
+publish_to: none
+description: A Very Good Project created by Very Good CLI.
+environment: 
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: 3.3.1
+
+dependencies: 
+  photo_view: ^0.14.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.2
+  flutter_test: 
+    sdk: flutter
+

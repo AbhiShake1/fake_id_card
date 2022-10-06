@@ -1,0 +1,28 @@
+name: fake_id_card
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  path_provider: 2.0.11
+  qr_flutter: 4.0.0
+  image_picker: 0.8.6
+  share_plus: 4.5.2
+  screenshot: 1.2.3
+  app_extensions: 
+    path: app_extensions
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
